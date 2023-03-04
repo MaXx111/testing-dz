@@ -1,0 +1,91 @@
+.widget {
+
+}
+
+.title {
+    margin: 20px 0 10px 0px;
+}
+
+.cards {
+    margin: 10px 0;
+    height:25px;
+    padding: 0;
+}
+
+.cards li {
+    display: block;
+    float:left
+}
+
+.card {
+    float: left;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    margin-right:4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.3;
+}
+
+#submitform {
+    margin-left:10px
+}
+
+.card.showCard {
+    opacity: 1;
+}
+
+.card.visa {
+    background-image: url(2ab7cc81034a979df7f2.png);
+}
+
+.card.amex {
+    background-image: url(bf411cf58012db9e959e.png);
+}
+
+.card.jcb {
+    background-image: url(b8e05509ba0d6f446918.png);
+}
+
+.card.master {
+    background-image: url(2c006383281fe29ab46a.png);
+}
+
+.card.discover {
+    background-image: url(ba00d0d4dcba65e69637.png);
+}
+
+.card.diners_club {
+    background-image: url(ffbc47040ca2b982cf71.png);
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 7px 18px;
+    background-color: #fd6b2d;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #ffdaca;
+    color: black;
+}
+
+.btn:active{
+    background-color: #fd6b2d;
+    color: white;
+}
+
+.form-control {
+    border: 2px solid #E06733;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.hidden {
+    display: none;
+}
