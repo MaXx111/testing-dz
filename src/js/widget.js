@@ -52,7 +52,7 @@ export default class Widget {
 
     this.form = this._elem.querySelector(Widget.selector);
     this.input = this.form.querySelector(Widget.inputSelector);
-    this.submitt = this.form.querySelector(Widget.submitSelector);
+    this.submit = this.form.querySelector(Widget.submitSelector);
 
     this.form.addEventListener('submit', this.onSubmit);
   }
